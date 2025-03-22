@@ -131,12 +131,10 @@
    height: 100%;
    border-right: 2px solid var(--main-color);
    z-index: -1;
-   animation: homeCursorText 6s linear infinite;
-   animation-delay: 2s;
  }
 
  .home.show-animate .home-content .text-animate h3::before {
-   animation: homeBgText 6s linear infinite;
+   animation: homeCursorText 6s linear infinite;
    animation-delay: 2s;
  }
 
@@ -980,7 +978,7 @@ section:nth-child(odd) .animate.scroll{
 
    65%, 
    78%,
-   85%{
+   81%{
       width: 100%;
       opacity: 1;
    }
