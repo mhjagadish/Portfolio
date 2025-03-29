@@ -813,6 +813,10 @@ section:nth-child(odd) .animate.scroll{
    .footer {
       padding: 2rem 4%
    }
+ .pjtimg{
+      flex-direction: column;
+      flex-wrap: wrap;
+   }
 }
 
 @media (max-width: 768px){
@@ -878,6 +882,10 @@ section:nth-child(odd) .animate.scroll{
    display: flex;
    flex-direction: column;
  }
+     .pjtimg{
+      flex-direction: column;
+      flex-wrap: wrap;
+   }
 }
 
 @media (max-width: 520px){
@@ -904,6 +912,10 @@ section:nth-child(odd) .animate.scroll{
       display: flex;
       flex-direction: column;
     }
+     .pjtimg{
+      flex-direction: column;
+      flex-wrap: wrap;
+   }
 }
 
 @media (max-width: 462px){
@@ -927,6 +939,10 @@ section:nth-child(odd) .animate.scroll{
       margin-top: 2rem;
       text-align: center;
    }
+     .pjtimg{
+      flex-direction: column;
+      flex-wrap: wrap;
+   }
 }
 
 @media (max-width: 371px){
@@ -948,6 +964,10 @@ section:nth-child(odd) .animate.scroll{
    .home-content h1 {
       font-size: 5rem;
      
+   }
+     .pjtimg{
+      flex-direction: column;
+      flex-wrap: wrap;
    }
 }
 
